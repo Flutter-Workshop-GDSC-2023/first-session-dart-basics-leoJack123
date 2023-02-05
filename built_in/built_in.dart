@@ -3,12 +3,15 @@ void main(List<String> args) {
   // convert string to int
   String number = '10';
   int number2;
+  number2 = int.parse(number);
   // output should be 10
-
+// 
   // convert int to string
   int number3 = 10;
   String number4;
+  number4 = number3.toString()
   // output should be '10'
+  
 
   // uppercase and lowercase a string
   String name = 'ahmed';
